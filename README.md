@@ -1,11 +1,11 @@
-hexo-renderer-njks
+hexo-renderer-njucks
 ==================
 
 Yet another Nunjucks renderer for Hexo. Async, alive and can be actively updated.
 
 # WHY?
 
-Both `hexo-renderer-nunjucks` and `hexo-renderer-njk` are using Nunjucks version 2, and seems their author won't update them to Nunjucks 3. `hexo-renderer-Nunjucks` takes the best name in npm, but it has no page of issues that can let me ask the author to update it. So I write my own hexo renderer to render my theme [ARIA](https://github.com/AlynxZhou/hexo-theme-aria).
+Both `hexo-renderer-nunjucks` and `hexo-renderer-njk` and `hexo-renderer-njks` are using Nunjucks version 2, and seems their author won't update them to Nunjucks 3. They take the best name in npm, but leave code unmaintained! So I write my own hexo renderer to render my theme [ARIA](https://github.com/AlynxZhou/hexo-theme-aria).
 
 # READ HERE BEFORE USING IT OR CREATING YOUR OWN THEME WITH NUNJUCKS：
 
