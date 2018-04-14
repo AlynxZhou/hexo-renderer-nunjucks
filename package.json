@@ -1,0 +1,26 @@
+{
+  "name": "hexo-renderer-njks",
+  "version": "1.0.0",
+  "description": "Yet another Nunjucks renderer for Hexo. Async, alive and can be actively updated.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlynxZhou/hexo-renderer-njks.git"
+  },
+  "keywords": [
+    "Nunjucks",
+    "Hexo"
+  ],
+  "author": "AlynxZhou <alynx.zhou@gmail.com> (https://alynx.xyz/)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/AlynxZhou/hexo-renderer-njks/issues"
+  },
+  "homepage": "https://github.com/AlynxZhou/hexo-renderer-njks#readme",
+  "dependencies": {
+    "nunjucks": "^3.1.2"
+  }
+}
