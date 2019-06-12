@@ -13,7 +13,7 @@ By default it set `autoescape` to `false` because Hexo renders markdown to HTML,
 Nunjucks just place strings. If you set it to `true`x, you will see the `<`, `>` of
 HTML tags on your page.
 
-If you want to change Nunjucks config (for doc looks [here](https://mozilla.github.io/Nunjucks/cn/api.html#configure)), just write them in Hexo's site config `_config.yml` like this:
+If you want to change Nunjucks config (for doc looks [here](https://mozilla.github.io/nunjucks/api.html#configure)), just write them in Hexo's site config `_config.yml` like this:
 
 ```yaml
 nunjucks:
