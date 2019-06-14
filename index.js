@@ -17,9 +17,11 @@ function njkRenderer(data, locals, callback) {
 
 // Return a compiled renderer.
 njkRenderer.compile = function (data) {
+	const compiledTemplate = njkCompile(data);
+	
 	// Need a closure to keep the compiled template.
 	return function (locals, callback) {
-		return njkCompile(data).render(locals, callback);
+		return compiledTemplate.render(locals, callback);
 	}
 }
 
